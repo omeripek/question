@@ -1,0 +1,25 @@
+{
+    "name": "omeripek/question",
+    "description": "",
+    "authors": [
+        {
+            "name": "Ömer İPEK",
+            "email": "omer@ipek.in"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modules\\Question\\Providers\\QuestionServiceProvider"
+            ],
+            "aliases": {
+                
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Question\\": ""
+        }
+    }
+}
